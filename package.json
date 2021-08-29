@@ -1,0 +1,16 @@
+{
+  "name": "dimonoso.strangeioc",
+  "version": "1.0.0",
+  "displayName": "StrangeIoC",
+  "description": "StrangeIoC for Unity",
+  "keywords": [
+    "StrangeIoC",
+    "Strange",
+    "IoC"
+  ],
+  "author": {
+    "name": "dimonoso",
+    "email": "mdk.marchuk@gmail.com"
+  },
+  "type": "library"
+}

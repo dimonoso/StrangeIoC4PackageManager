@@ -2,8 +2,34 @@
 
 Current version: v1.0.0
 
-Website: http://strangeioc.github.io/strangeioc/
+Website: https://github.com/dimonoso/StrangeIoC-PackageManager
 
+<br><br><br><br>
+
+## Installation
+
+#### Requirement
+
+* Unity 2017.1 or later (2018.x, 2019.x and 2020.x are included)
+* No other SDK are required
+
+#### Using Git (for Unity 2018.3 or later)
+
+Find the manifest.json file in the Packages folder of your project and edit it to look like this:
+```js
+{
+  "dependencies": {
+    "com.dimonoso.strangeioc": "https://github.com/dimonoso/StrangeIoC4PackageManager.git",
+    ...
+  },
+}
+```
+
+To update the package, change suffix `#{version}` to the target version.
+
+* e.g. `"com.dimonoso.strangeioc": "https://github.com/dimonoso/StrangeIoC4PackageManager.git#1.0.0",`
+
+<br><br><br><br>
 
 > Strange attractors create predictable patterns, often in chaotic systems.
 
